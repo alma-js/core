@@ -1,0 +1,21 @@
+{
+    "source": "./src",
+    "destination": "./docs",
+    "plugins": [
+        {
+            "name": "esdoc-ecmascript-proposal-plugin",
+            "option": {
+                "objectRestSpread": true
+            }
+        },
+        {
+            "name": "esdoc-standard-plugin"
+        }
+    ],
+    "brand": {
+        "title": "AlmaJS",
+        "description": "An implementation of the SAM pattern (sam.js.org).",
+        "repository": "https://github.com/alma-js/core.git",
+        "author": "Dannel Albert"
+    }
+}

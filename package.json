@@ -1,0 +1,53 @@
+{
+  "name": "@alma-js/core",
+  "version": "0.0.1",
+  "description": "An implementation of the SAM pattern (sam.js.org).",
+  "main": "dist/alma-core.js",
+  "module": "dist/alma-core.es.js",
+  "scripts": {
+    "test": "jest && standard",
+    "build": "rollup -c",
+    "start": "rollup -c -w",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alma-js/core.git"
+  },
+  "keywords": [
+    "alma",
+    "sam",
+    "state",
+    "pattern",
+    "decouple",
+    "engine"
+  ],
+  "author": "Dannel Albert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alma-js/core/issues"
+  },
+  "homepage": "https://github.com/alma-js/core#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.4",
+    "esdoc": "^1.1.0",
+    "esdoc-ecmascript-proposal-plugin": "^1.0.0",
+    "esdoc-standard-plugin": "^1.0.0",
+    "implements-interface": "0.0.3",
+    "jest": "^23.6.0",
+    "rollup": "^0.67.4",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "standard": "^12.0.1"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "dependencies": {}
+}
